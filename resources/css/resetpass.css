@@ -1,0 +1,32 @@
+body{
+        background-image: url(../images/LOGO_REM.jpg);
+        background-size: cover;
+        color: white;
+        background-repeat: repeat-y;
+        background-position: center; 
+        background-attachment: fixed;
+      }
+      form{
+        background: #00CED1;
+        color: white;
+        padding: 40px;
+        margin-top: 100px;
+        padding-bottom: 60px;
+        box-shadow: 10px 10px 5px rgba(6, 1, 1, 0.43);
+        width: 100% ! important;
+      }
+      h1{
+        text-align: center;
+        text-transform: none;
+      }
+      .btn{
+        width: 100%;
+        border-radius: 0px;
+        
+      }
+      .form-control{
+        border-radius: 0px;
+        background-color: white;
+        color: black;
+        border-radius:1px solid #291212
+      }

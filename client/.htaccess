@@ -1,0 +1,108 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^index/([0-9]+)/([0-9a-zA-Z_-]+) index.php [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^firsttime/([0-9]+)/([0-9a-zA-Z_-]+) firsttime.php?usr=$1&username=$2 [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^profile/([0-9]+)/([0-9a-zA-Z_-]+) profile.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^users/([0-9]+)/([0-9a-zA-Z_-]+) users.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^changepass/([0-9]+)/([0-9a-zA-Z_-]+) changepass.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^completedOrder/([0-9]+)/([0-9a-zA-Z_-]+) completedOrder.php?id= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^customers/([0-9]+)/([0-9a-zA-Z_-]+) customers.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^completedOrder/([0-9]+)/([0-9a-zA-Z_-]+) completedOrder.php?id= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^display/([0-9]+)/([0-9a-zA-Z_-]+) display.php?id= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^orders/([0-9]+)/([0-9a-zA-Z_-]+) orders.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^prodDetails/([0-9]+)/([0-9a-zA-Z_-]+) prodDetails.php?source= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^completedOrder/([0-9]+)/([0-9a-zA-Z_-]+) completedOrder.php?id= [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^products/([0-9]+)/([0-9a-zA-Z_-]+) products.php?source= [NC,L]
+
+
+
+
+
+
+
+
+
+
+
+
+
